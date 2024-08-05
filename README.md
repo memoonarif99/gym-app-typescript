@@ -10,6 +10,10 @@ This repository contains the code for a one-page fitness application built using
 - Interactive animations with Framer Motion
 - Form submission for class registration
 
+## How to Start
+- install dependencies > npm install
+- start > npm run dev
+
 ## Technologies Used
 
 - React

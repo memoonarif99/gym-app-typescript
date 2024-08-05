@@ -11,9 +11,9 @@ This repository contains the code for a single-page fitness application built us
 - Experience interactive animations with Framer Motion
 - Register for classes using form submission
 
-## How to Start
-- install dependencies > npm install
-- start > npm run dev
+## Getting Started
+- Install dependencies: "npm install"
+- Launch the application: "npm run dev"
 
 ## Technologies Used
 

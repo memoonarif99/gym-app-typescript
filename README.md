@@ -2,6 +2,7 @@
 
 This repository contains the code for a single-page fitness application built using React, TypeScript, Vite, Tailwind CSS, Hero Icons, Framer Motion, Form Submit, and React Anchor Link Smooth Scroll. The app allows users to explore different fitness classes and access detailed information about each class.
 
+## Vercel Link: https://gym-app-typescript-kohl.vercel.app/
 
 ## Features
 

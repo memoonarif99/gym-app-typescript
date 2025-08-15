@@ -6,7 +6,6 @@ import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
 type Props = { setSelectedPage: (value: SelectedPage) => void };
@@ -36,7 +35,7 @@ const Home = ({ setSelectedPage }: Props) => {
             className="md:-mt-20"
           >
             <div className="relative">
-              <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
+              <div className="before:absolute before:-left-20 before:-top-20 before:z-[-1] md:before:content-evolvetext">
                 <img src={HomePageText} alt="home-page-text" />
               </div>
             </div>
@@ -62,13 +61,6 @@ const Home = ({ setSelectedPage }: Props) => {
             <ActionButton setSelectedPage={setSelectedPage}>
               Join Now
             </ActionButton>
-            {/* <AnchorLink
-              className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-              onClick={() => setSelectedPage(SelectedPage.ContactUs)}
-              href={`${SelectedPage.ContactUs}`}
-            >
-              <p>Learn More</p>
-            </AnchorLink> */}
           </motion.div>
         </div>
         {/* Image */}

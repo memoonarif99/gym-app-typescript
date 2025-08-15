@@ -8,7 +8,6 @@ import image6 from "@/assets/image6.png";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Class from "./Class";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const classes: Array<ClassType> = [
   {

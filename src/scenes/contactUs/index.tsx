@@ -26,7 +26,7 @@ function ContactUs({ setSelectedPage }: Props) {
   px-5 py-3 placeholder-white`;
 
   return (
-    <section id="contacts" className="mx-auto w-5/6 pt-24 pb-32">
+    <section id="contacts" className="mx-auto w-5/6 pb-32 pt-24">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
       >
@@ -46,9 +46,10 @@ function ContactUs({ setSelectedPage }: Props) {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+            Flexible growth comes with balanced placement. The body rests in
+            strength, graceful yet firm. Placement exists even in deep movement.
+            No growth is wasted; strength brings calmness and dignity. Now
+            begins the path forward.
           </p>
         </motion.div>
         {/* Form & Image */}

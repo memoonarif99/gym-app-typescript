@@ -31,7 +31,6 @@ function ContactUs({ setSelectedPage }: Props) {
         onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
       >
         {/* Header */}
-
         <motion.div
           className="md:w-3/5"
           initial="hidden"

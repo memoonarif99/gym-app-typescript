@@ -96,6 +96,7 @@ function ContactUs({ setSelectedPage }: Props) {
                   pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                 })}
               />
+
               {errors.email && (
                 <p className="mt-1 text-primary-500">
                   {errors.email.type === "required" &&
